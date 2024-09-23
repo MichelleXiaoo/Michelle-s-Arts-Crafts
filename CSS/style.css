@@ -1,16 +1,96 @@
 * {
   font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
 body {
+  background-color: #f6feff;
   height: 100%;
-  width: 90%;
+  width: 100%;
   padding: 0, 20px;
   text-align: center;
+  margin: 160px auto;
+}
+
+main {
+  width: 90%;
   margin: 0 auto;
+}
+
+header {
+  background-color: #0c6980;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0px 0;
+  font-size: 20px;
+  display: block;
+  justify-content: space-between;
 }
 
 .logo {
   height: 100px;
   width: 100px;
+  border-radius: 50%;
+  filter: drop-shadow(1px 1px 1px black);
+  padding-top: 10px;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: #f6feff;
+  padding: 10px 20px;
+}
+
+h1, h2 {
+  color: #0c6980;
+  padding: 20px;
+
+}
+
+h4 {
+  color: #00a8a8;
+  padding: 10px;
+}
+
+
+#subscribe {
+  background-color: #b89ad3;
+  border-color: #b89ad3;
+  font-weight: bold;
+} 
+
+
+
+button {
+  background-color: #0c6980;
+  border-color: #0c6980;
+  color:#f6feff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+button:hover {
+  background-color: #9cdfe5;
+  color: #2f5f98;
+  font-weight: bold;
+}
+
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-style: inset;
+   
+}
+
+.contact_info {
+  font-size: 14px;
+  color: #3d3e3f
+}
+
+footer {
+  font-size: 12px;
+  padding-top: 30px;
 }
